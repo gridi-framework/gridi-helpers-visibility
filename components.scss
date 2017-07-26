@@ -1,0 +1,5 @@
+@each $class, $value in $gridi-helpers-visibility-classes {
+    .#{$class} {
+        visibility: $value;
+    }
+}
